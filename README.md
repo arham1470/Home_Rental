@@ -140,14 +140,28 @@ Home_Rental/
 
 ---
 
-## Default Admin
+## Demo Login Credentials (All Roles)
 
-SQL seed includes default admin:
+Use one-time password setup utility:
 
-- **Email:** `admin@homerenting.com`
-- **Password:** `Admin@123`
+1. Open in browser:
+   - `http://localhost/Home_Rental/setpassword.php`
+2. It will create/update demo accounts and set passwords.
+3. **Delete `setpassword.php` immediately after use** (security best practice).
 
-If login fails, re-import SQL and ensure users table seed inserted.
+Credentials:
+
+- **Admin**
+  - Email: `admin@homerenting.com`
+  - Password: `Admin@123`
+
+- **Tenant**
+  - Email: `tenant@homerenting.com`
+  - Password: `Tenant@123`
+
+- **Landlord**
+  - Email: `landlord@homerenting.com`
+  - Password: `Landlord@123`
 
 ---
 
